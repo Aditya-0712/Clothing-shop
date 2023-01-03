@@ -111,6 +111,7 @@
     transition:1s;
     overflow:hidden;
     position:fixed;
+    z-index:1;
 }
 
 .menu .span1 , .menu .span2 ,.menu .span3, .menu1 .span1 , .menu1 .span2 ,.menu1 .span3
@@ -173,4 +174,23 @@
 {
     color:white;
     transition: 1s;
+}
+
+.title , .darktitle
+{
+    display:block;
+    width:auto;
+    height:auto;
+    font-size:40px;
+    color:black;
+    font-family:nexa;
+    text-align:center;
+    margin-top:0px;
+    transition:1s;
+}
+
+.darktitle 
+{
+    color:white;
+    transition:1s;
 }
