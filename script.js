@@ -8,6 +8,7 @@ var obj9 = document.getElementById("option3");
 var obj10 = document.getElementById("option4");
 var obj11 = document.getElementById("title");
 var obj12 = document.getElementById("mod1");
+var obj13 = document.getElementById("cart");
 obj1.onclick = function()
 {
     obj1.classList.toggle("on");
@@ -21,6 +22,7 @@ obj1.onclick = function()
     obj10.classList.toggle("darkoption");
     obj11.classList.toggle("darktitle");
     obj12.classList.toggle("darkmod1");
+    obj13.classList.toggle("darkcart");
 }
 
 var obj2 = document.getElementById("menu");
