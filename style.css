@@ -47,8 +47,7 @@
     display:block;
     width:auto;
     height:auto;
-    justify-items:center;
-    align-items:center;
+    text-align:center;
     font-size:30px;
     color:black;
     font-family:nexa;
@@ -66,7 +65,7 @@
     display:inline-block;
     width:80px;
     height:40px;
-    margin:0px 0px 0px 48px;
+    margin:0px 0px 30px 48px;
     border:5px solid #183153;
     border-radius:50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -154,4 +153,24 @@
 {
     transform:translateX(-50px);
     transition: 0.8s;
+}
+
+.option , .darkoption
+{
+    display:block;
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-size:25px;
+    color:black;
+    font-family:nexa;
+    transition:1s;
+    cursor:pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.darkoption 
+{
+    color:white;
+    transition: 1s;
 }
