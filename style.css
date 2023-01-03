@@ -14,13 +14,13 @@
     transition: 1s;
 }
 
-.sidebar , .sidebar1
+.sidebar , .sidebar1 , .darksidebar
 {
     display:inline-block;
     width:0px;
     height:100%;
     margin:0;
-    background-image:linear-gradient(purple,blueviolet);
+    background-image:linear-gradient(#FEFCF3,#F5EBE0,#F0DBDB,#DBA39A);
     border:1px solid black;
     border-radius:0px 20px 20px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -36,7 +36,13 @@
     transition:1s;
 }
 
-.sidecont 
+.darksidebar 
+{
+    background-image:linear-gradient(#000000,#52057B,#892CDC,#BC6FF1);
+    transition: 1s;
+}
+
+.sidecont , .darksidecont
 {
     display:block;
     width:auto;
@@ -46,6 +52,13 @@
     font-size:30px;
     color:black;
     font-family:nexa;
+    transition:1s;
+}
+
+.darksidecont
+{
+    color:white;
+    transition:1s;
 }
 
 .off , .on
