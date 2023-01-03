@@ -9,6 +9,8 @@ var obj10 = document.getElementById("option4");
 var obj11 = document.getElementById("title");
 var obj12 = document.getElementById("mod1");
 var obj13 = document.getElementById("cart");
+var obj14 = document.getElementById("mod2");
+var obj15 = document.getElementById("cart2");
 obj1.onclick = function()
 {
     obj1.classList.toggle("on");
@@ -23,6 +25,8 @@ obj1.onclick = function()
     obj11.classList.toggle("darktitle");
     obj12.classList.toggle("darkmod1");
     obj13.classList.toggle("darkcart");
+    obj14.classList.toggle("darkmod1");
+    obj15.classList.toggle("darkcart");
 }
 
 var obj2 = document.getElementById("menu");
