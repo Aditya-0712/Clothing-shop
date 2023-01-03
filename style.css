@@ -1,10 +1,17 @@
-body 
+.lightbody , .darkbody 
 {
     width:100%;
     height:900px;
     margin:0;
     font-size:0px;
     background-color:white;
+    transition: 1s;
+}
+
+.darkbody 
+{
+    background-color: #404258;
+    transition: 1s;
 }
 
 .sidebar , .sidebar1
@@ -88,10 +95,10 @@ body
     width:50px;
     height:50px;
     margin:10px 0px 0px 10px;
-    border:1px solid black;
     cursor:pointer;
     transition:1s;
     overflow:hidden;
+    position:fixed;
 }
 
 .menu .span1 , .menu .span2 ,.menu .span3, .menu1 .span1 , .menu1 .span2 ,.menu1 .span3

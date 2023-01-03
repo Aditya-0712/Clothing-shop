@@ -1,7 +1,9 @@
 var obj1 = document.getElementById("off");
+var obj4 = document.getElementById("lightbody");
 obj1.onclick = function()
 {
     obj1.classList.toggle("on");
+    obj4.classList.toggle("darkbody");
 }
 
 var obj2 = document.getElementById("menu");
