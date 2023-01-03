@@ -198,7 +198,7 @@
     transition:1s;
 }
 
-.mod1 
+.mod1 , .darkmod1
 {
     display:block;
     width:auto;
@@ -206,6 +206,14 @@
     margin:100px auto 0px auto;
     border-radius:20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:#FEFCF3;
+    transition: 1s;
+}
+
+.darkmod1 
+{
+    background-color:rgba(0, 0, 0, 0.5);
+    transition: 1s;
 }
 
 .hed ,.blackhed
@@ -247,4 +255,15 @@
     width:100px;
     height:auto;
     margin:0px auto 0px auto;
+}
+
+.price 
+{
+    display:block;
+    width:auto;
+    height:auto;
+    font-size:15px;
+    color:black;
+    font-family:nexa;
+    text-align:center;
 }

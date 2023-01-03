@@ -7,6 +7,7 @@ var obj8 = document.getElementById("option2");
 var obj9 = document.getElementById("option3");
 var obj10 = document.getElementById("option4");
 var obj11 = document.getElementById("title");
+var obj12 = document.getElementById("mod1");
 obj1.onclick = function()
 {
     obj1.classList.toggle("on");
@@ -19,6 +20,7 @@ obj1.onclick = function()
     obj9.classList.toggle("darkoption");
     obj10.classList.toggle("darkoption");
     obj11.classList.toggle("darktitle");
+    obj12.classList.toggle("darkmod1");
 }
 
 var obj2 = document.getElementById("menu");
