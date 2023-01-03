@@ -106,12 +106,12 @@
     display:inline-block;
     width:50px;
     height:50px;
-    margin:10px 0px 0px 10px;
+    margin:5px 0px 0px 10px;
     cursor:pointer;
     transition:1s;
     overflow:hidden;
     position:fixed;
-    z-index:1;
+    z-index:3;
 }
 
 .menu .span1 , .menu .span2 ,.menu .span3, .menu1 .span1 , .menu1 .span2 ,.menu1 .span3
@@ -187,6 +187,8 @@
     text-align:center;
     margin-top:0px;
     transition:1s;
+    z-index:1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .darktitle 
