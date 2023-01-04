@@ -16,6 +16,10 @@ var obj17 = document.getElementById("cart3");
 var obj18 = document.getElementById("mod4");
 var obj19 = document.getElementById("cart4");
 var obj20 = document.getElementById("title1");
+var obj21 = document.getElementById("hed1");
+var obj22 = document.getElementById("hed2");
+var obj23 = document.getElementById("hed3");
+var obj24 = document.getElementById("hed4");
 obj1.onclick = function()
 {
     obj1.classList.toggle("on");
@@ -37,6 +41,10 @@ obj1.onclick = function()
     obj18.classList.toggle("darkmod1");
     obj19.classList.toggle("darkcart");
     obj20.classList.toggle("darkexc");
+    obj21.classList.toggle("blackhed");
+    obj22.classList.toggle("blackhed");
+    obj23.classList.toggle("blackhed");
+    obj24.classList.toggle("blackhed");
 }
 
 var obj2 = document.getElementById("menu");
