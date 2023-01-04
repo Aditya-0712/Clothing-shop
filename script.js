@@ -15,6 +15,7 @@ var obj16 = document.getElementById("mod3");
 var obj17 = document.getElementById("cart3");
 var obj18 = document.getElementById("mod4");
 var obj19 = document.getElementById("cart4");
+var obj20 = document.getElementById("title1");
 obj1.onclick = function()
 {
     obj1.classList.toggle("on");
@@ -35,6 +36,7 @@ obj1.onclick = function()
     obj17.classList.toggle("darkcart");
     obj18.classList.toggle("darkmod1");
     obj19.classList.toggle("darkcart");
+    obj20.classList.toggle("darkexc");
 }
 
 var obj2 = document.getElementById("menu");

@@ -177,7 +177,7 @@
     transition: 1s;
 }
 
-.title , .darktitle
+.title , .darktitle, .exc , .darkexc
 {
     display:block;
     width:auto;
@@ -192,7 +192,15 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.darktitle 
+.exc , .darkexc
+{
+    box-shadow: none;
+    font-size:30px;
+    margin-bottom: 0px;
+    margin-top:60px;
+}
+
+.darktitle , .darkexc
 {
     color:white;
     transition:1s;
