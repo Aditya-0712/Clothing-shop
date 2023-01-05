@@ -444,7 +444,7 @@
         height:auto;
     }
 
-    .topnav 
+    .topnav , .darknav
     {
         display:flex;
         margin:0;
@@ -454,9 +454,16 @@
         background-color: white;
         position:fixed;
         z-index:1;
+        transition: 1s;
     }
 
-    .topnav .toptext 
+    .darknav 
+    {
+        background-color: #404258;
+        transition: 1s;
+    }
+
+    .topnav .toptext , .darknav .toptext
     {
         display:flex;
         margin:auto;
@@ -465,6 +472,13 @@
         font-size:40px;
         font-family:nexa;
         color:black;
+        transition: 1s;
+    }
+
+    .darknav .toptext
+    {
+        color:white;
+        transition: 1s;
     }
 
     .topnav .newopt , .topnav .dropdown , .up
@@ -481,7 +495,7 @@
         cursor:pointer;
     }
 
-    .topnav .newopt .newoptp , .topnav .dropdown .newoptp , .topnav .up .newoptp
+    .topnav .newopt .newoptp , .topnav .dropdown .newoptp , .topnav .up .newoptp , .darknav .newopt .newoptp , .darknav .dropdown .newoptp , .darknav .up .newoptp
     {
         display:flex;
         margin:auto;
@@ -490,6 +504,13 @@
         font-size:25px;
         color:black;
         font-family:nexa;
+        transition: 1s;
+    }
+
+    .darknav .newopt .newoptp , .darknav .dropdown .newoptp , .darknav .up .newoptp
+    {
+        color:white;
+        transition: 1s;
     }
 
     .dropdown .down , .up .down
