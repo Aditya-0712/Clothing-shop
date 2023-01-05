@@ -206,7 +206,7 @@
     font-size:30px;
     margin-bottom: 0px;
     margin-top:0px;
-    padding-top:140px;
+    padding-top:110px;
     transition:1s;
 }
 
@@ -221,7 +221,7 @@
     transition:1s;
 }
 
-.mod1 , .darkmod1
+.mod1 , .darkmod1 , .modf
 {
     display:block;
     width:auto;
@@ -231,6 +231,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color:#FEFCF3;
     transition: 1s;
+}
+
+.modf 
+{
+    margin:50px auto 0px auto;
 }
 
 .darkmod1 
