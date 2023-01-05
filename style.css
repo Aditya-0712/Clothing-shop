@@ -422,3 +422,107 @@
     font-family: sans-serif;
     color:rgba(255, 255, 255, 0.5);
 }
+
+.topnav 
+{
+    display:none;
+}
+
+
+@media screen and (min-width:800px)
+{
+    .menu , .title
+    {
+        display:none;
+    }
+
+    .newcart
+    {
+        display:flex;
+        margin:auto;
+        width:20px;
+        height:auto;
+    }
+
+    .topnav 
+    {
+        display:flex;
+        margin:0;
+        width:100%;
+        height:auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        position:fixed;
+        z-index:1;
+    }
+
+    .topnav .toptext 
+    {
+        display:flex;
+        margin:auto;
+        width:auto;
+        height:auto;
+        font-size:40px;
+        font-family:nexa;
+        color:black;
+    }
+
+    .topnav .newopt , .topnav .dropdown , .up
+    {
+        display:flex;
+        margin:0px auto 0px auto;
+        width:auto;
+        height:auto;
+        text-decoration: none;
+    }
+
+    .topnav .dropdown , .up
+    {
+        cursor:pointer;
+    }
+
+    .topnav .newopt .newoptp , .topnav .dropdown .newoptp , .topnav .up .newoptp
+    {
+        display:flex;
+        margin:auto;
+        width:auto;
+        height:auto;
+        font-size:25px;
+        color:black;
+        font-family:nexa;
+    }
+
+    .dropdown .down , .up .down
+    {
+        display:flex;
+        margin:auto;
+        width:20px;
+        height:auto;
+        transition: 0.5s;
+    }
+
+    .up .down 
+    {
+        transform:rotate(180deg);
+        transition: 0.5s;
+    }
+
+    .off 
+    {
+        display:flex;
+        margin:auto auto auto 15px;
+        width:60px;
+        height:30px;
+    }
+
+    .off .div1 
+    {
+        width:25px;
+        height:25px;
+    }
+
+    .on .div1 
+    {
+        transform:translateX(25px);
+    }
+}

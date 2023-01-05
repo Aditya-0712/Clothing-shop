@@ -54,3 +54,9 @@ obj2.onclick = function()
     obj2.classList.toggle("menu1");
     obj3.classList.toggle("sidebar1");
 }
+
+var obj25 = document.getElementById("dropdown");
+obj25.onclick = function()
+{
+    obj25.classList.toggle("up");
+}
