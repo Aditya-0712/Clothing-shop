@@ -92,4 +92,5 @@ obj26.onclick = function()
     obj22.classList.toggle("blackhed");
     obj23.classList.toggle("blackhed");
     obj24.classList.toggle("blackhed");
+    obj28.classList.toggle("darkalt");
 }

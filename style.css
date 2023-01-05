@@ -565,7 +565,7 @@
         margin:auto;
     }
 
-    .alt2 , .alton
+    .alt2 , .alton , .darkalt
     {
         display:block;
         width:151.6px;
@@ -577,13 +577,19 @@
         transition:0.5s;
     }
 
+    .darkalt 
+    {
+        background-image:linear-gradient(#000000,#52057B,#892CDC,#BC6FF1);
+        transition: 0.5s;
+    }
+
     .alton 
     {
         height:250px;
         transition:0.5s;
     }
 
-    .alt2 .altopt1 , .alt2 .rem , .alton .altopt1 , .alton .rem
+    .alt2 .altopt1 , .alt2 .rem , .alton .altopt1 , .alton .rem , .darkalt .altopt1 , .darkalt .rem
     {
         display:block;
         width:100%;
@@ -596,6 +602,13 @@
         margin-bottom:0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         cursor:pointer;
+        transition: 1s;
+    }
+
+    .darkalt .altopt1 , .darkalt .rem 
+    {
+        color:white;
+        transition: 1s;
     }
 
     .alt2 .rem , .alton .rem
@@ -633,5 +646,12 @@
         width:216.6px;
         height:100%;
         margin:auto;
+    }
+
+    .dropdown:hover , .newopt:hover , .altopt1:hover , .rem:hover
+    {
+        background-color: rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border-radius:5px;
     }
 }
