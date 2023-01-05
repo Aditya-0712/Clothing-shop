@@ -528,7 +528,7 @@
         transition: 0.5s;
     }
 
-    .off 
+    .off , .on
     {
         display:flex;
         margin:auto auto auto 15px;
@@ -536,7 +536,7 @@
         height:30px;
     }
 
-    .off .div1 
+    .off .div1 , .on .div1
     {
         width:25px;
         height:25px;

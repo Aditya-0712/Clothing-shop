@@ -20,7 +20,6 @@ var obj21 = document.getElementById("hed1");
 var obj22 = document.getElementById("hed2");
 var obj23 = document.getElementById("hed3");
 var obj24 = document.getElementById("hed4");
-var obj26 = document.getElementById("topnav");
 obj1.onclick = function()
 {
     obj1.classList.toggle("on");
@@ -46,8 +45,6 @@ obj1.onclick = function()
     obj22.classList.toggle("blackhed");
     obj23.classList.toggle("blackhed");
     obj24.classList.toggle("blackhed");
-    obj26.classList.toggle("darknav");
-
 }
 
 var obj2 = document.getElementById("menu");
@@ -62,4 +59,35 @@ var obj25 = document.getElementById("dropdown");
 obj25.onclick = function()
 {
     obj25.classList.toggle("up");
+}
+
+var obj26 = document.getElementById("off1");
+var obj27 = document.getElementById("topnav");
+obj26.onclick = function()
+{
+    obj26.classList.toggle("on");
+    obj27.classList.toggle("darknav");
+
+    obj4.classList.toggle("darkbody");
+    obj5.classList.toggle("darksidecont");
+    obj3.classList.toggle("darksidebar");
+    obj6.classList.toggle("darkoption");
+    obj7.classList.toggle("darkoption");
+    obj8.classList.toggle("darkoption");
+    obj9.classList.toggle("darkoption");
+    obj10.classList.toggle("darkoption");
+    obj11.classList.toggle("darktitle");
+    obj12.classList.toggle("darkmod1");
+    obj13.classList.toggle("darkcart");
+    obj14.classList.toggle("darkmod1");
+    obj15.classList.toggle("darkcart");
+    obj16.classList.toggle("darkmod1");
+    obj17.classList.toggle("darkcart");
+    obj18.classList.toggle("darkmod1");
+    obj19.classList.toggle("darkcart");
+    obj20.classList.toggle("darkexc");
+    obj21.classList.toggle("blackhed");
+    obj22.classList.toggle("blackhed");
+    obj23.classList.toggle("blackhed");
+    obj24.classList.toggle("blackhed");
 }
