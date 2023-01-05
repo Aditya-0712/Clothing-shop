@@ -177,27 +177,42 @@
     transition: 1s;
 }
 
-.title , .darktitle, .exc , .darkexc
+.title , .darktitle
 {
-    display:block;
-    width:auto;
+    display:inline-block;
+    width:100%;
     height:auto;
     font-size:40px;
     color:black;
     font-family:nexa;
     text-align:center;
-    margin-top:0px;
+    margin:0;
     transition:1s;
-    z-index:1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:fixed;
+    background-color: white;
+    z-index:1;
 }
 
 .exc , .darkexc
 {
+    display:block;
+    width:auto;
+    height:auto;
     box-shadow: none;
+    color:black;
+    font-family:nexa;
+    text-align:center;
     font-size:30px;
     margin-bottom: 0px;
-    margin-top:60px;
+    margin-top:0px;
+    padding-top:140px;
+    transition:1s;
+}
+
+.darktitle 
+{
+    background-color:#404258;
 }
 
 .darktitle , .darkexc
