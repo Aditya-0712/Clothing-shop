@@ -56,9 +56,11 @@ obj2.onclick = function()
 }
 
 var obj25 = document.getElementById("dropdown");
+var obj28 = document.getElementById("alt2");
 obj25.onclick = function()
 {
     obj25.classList.toggle("up");
+    obj28.classList.toggle("alton");
 }
 
 var obj26 = document.getElementById("off1");

@@ -423,7 +423,7 @@
     color:rgba(255, 255, 255, 0.5);
 }
 
-.topnav 
+.topnav , .alt
 {
     display:none;
 }
@@ -453,7 +453,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: white;
         position:fixed;
-        z-index:1;
+        z-index:2;
         transition: 1s;
     }
 
@@ -545,5 +545,93 @@
     .on .div1 
     {
         transform:translateX(25px);
+    }
+
+    .alt 
+    {
+        display:flex;
+        width:100%;
+        height:60.67px;
+        margin:0;
+        position:fixed;
+        z-index:1;
+    }
+
+    .alt1 
+    {
+        display:flex;
+        width:189.13px;
+        height:100%;
+        margin:auto;
+    }
+
+    .alt2 , .alton
+    {
+        display:block;
+        width:151.6px;
+        height:0px;
+        margin:auto;
+        background-image:linear-gradient(#FEFCF3,#F5EBE0,#F0DBDB,#DBA39A);
+        overflow:hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition:0.5s;
+    }
+
+    .alton 
+    {
+        height:250px;
+        transition:0.5s;
+    }
+
+    .alt2 .altopt1 , .alt2 .rem , .alton .altopt1 , .alton .rem
+    {
+        display:block;
+        width:100%;
+        height:auto;
+        font-size:25px;
+        font-family:nexa;
+        color:black;
+        text-align:center;
+        margin-top:65px;
+        margin-bottom:0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor:pointer;
+    }
+
+    .alt2 .rem , .alton .rem
+    {
+        margin-top:10px
+    }
+
+    .alt3
+    {
+        display:flex;
+        width:117.16px;
+        height:100%;
+        margin:auto;
+    }
+
+    .alt4 
+    {
+        display:flex;
+        width:134.71px;
+        height:100%;
+        margin:auto;
+    }
+
+    .alt5
+    {
+        display:flex;
+        width:133.28px;
+        height:100%;
+        margin:auto;
+    }
+
+    .alt6
+    {
+        display:flex;
+        width:216.6px;
+        height:100%;
+        margin:auto;
     }
 }
