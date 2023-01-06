@@ -264,7 +264,7 @@
     transition:1s;
 }
 
-.desc 
+.desc , .prodesc
 {
     display:block;
     width:auto;
@@ -277,7 +277,7 @@
     margin-bottom: 10px;
 }
 
-.stars 
+.stars , .prostars
 {
     display:block;
     width:100px;
@@ -285,7 +285,7 @@
     margin:0px auto 0px auto;
 }
 
-.price 
+.price , .proprice
 {
     display:block;
     width:auto;
@@ -296,7 +296,7 @@
     text-align:center;
 }
 
-.cart , .darkcart
+.cart , .darkcart , .procart , .darkprocart
 {
     display:flex;
     margin:auto;
@@ -311,14 +311,14 @@
     overflow:hidden;
 }
 
-.darkcart 
+.darkcart , .darkprocart
 {
     background-image:linear-gradient(to right,#000000,#52057B,#892CDC,#BC6FF1);
     opacity: 0.8;
     transition: 1s;
 }
 
-.cart .add , .darkcart .add
+.cart .add , .darkcart .add , .procart .add , .prodarkcart .add
 {
     display:block;
     width:auto;
@@ -330,13 +330,13 @@
     transition: 1s;
 }
 
-.darkcart .add 
+.darkcart .add , .prodarkcart .add
 {
     color:white;
     transition: 1s;
 }
 
-.svg 
+.svg , .prosvg
 {   
     display:block;
     width:25px;
@@ -423,7 +423,7 @@
     color:rgba(255, 255, 255, 0.5);
 }
 
-.topnav , .alt
+.topnav , .alt , .deskflex
 {
     display:none;
 }
@@ -431,7 +431,7 @@
 
 @media screen and (min-width:1000px)
 {
-    .menu , .title
+    .menu , .title, .modf, .hed, .desc, .price , .cart , .stars, .mod1
     {
         display:none;
     }
@@ -653,5 +653,45 @@
         background-color: rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         border-radius:5px;
+    }
+
+    .deskflex 
+    {
+        display:flex;
+        width:100%;
+        height:auto;
+        margin:100px 0px 0px 0px;
+    }
+
+    .deskflex .deskimg 
+    {
+        display:flex;
+        margin:0px auto 0px auto;
+        width:300px;
+        height:auto;
+        border-radius:20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color:#FEFCF3;
+        transition: 1s;
+    }
+
+    .deskflex .flextext
+    {
+        display:block;
+        margin:auto;
+        width:auto;
+        height:auto;
+    }
+
+    .deskflex .flextext .ftitle
+    {
+        display:block;
+        margin:0;
+        width:auto;
+        height:auto;
+        font-size:30px;
+        color:black;
+        font-family:nexa;
+        text-align:center;
     }
 }
