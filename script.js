@@ -65,6 +65,14 @@ obj25.onclick = function()
 
 var obj26 = document.getElementById("off1");
 var obj27 = document.getElementById("topnav");
+var obj29 = document.getElementById("deskcart1");
+var obj30 = document.getElementById("deskcart2");
+var obj31 = document.getElementById("deskcart3");
+var obj32 = document.getElementById("deskcart4");
+var obj33 = document.getElementById("dimg1");
+var obj34 = document.getElementById("dimg2");
+var obj35 = document.getElementById("dimg3");
+var obj36 = document.getElementById("dimg4");
 obj26.onclick = function()
 {
     obj26.classList.toggle("on");
@@ -93,4 +101,12 @@ obj26.onclick = function()
     obj23.classList.toggle("blackhed");
     obj24.classList.toggle("blackhed");
     obj28.classList.toggle("darkalt");
+    obj29.classList.toggle("darkprocart");
+    obj30.classList.toggle("darkprocart");
+    obj31.classList.toggle("darkprocart");
+    obj32.classList.toggle("darkprocart");
+    obj33.classList.toggle("blakflex");
+    obj34.classList.toggle("blakflex");
+    obj35.classList.toggle("blakflex");
+    obj36.classList.toggle("blakflex");
 }

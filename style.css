@@ -318,7 +318,7 @@
     transition: 1s;
 }
 
-.cart .add , .darkcart .add , .procart .add , .prodarkcart .add
+.cart .add , .darkcart .add , .procart .add , .darkprocart .add
 {
     display:block;
     width:auto;
@@ -330,7 +330,7 @@
     transition: 1s;
 }
 
-.darkcart .add , .prodarkcart .add
+.darkcart .add , .darkprocart .add
 {
     color:white;
     transition: 1s;
@@ -655,7 +655,7 @@
         border-radius:5px;
     }
 
-    .deskflex 
+    .deskflex , .blakflex
     {
         display:flex;
         width:100%;
@@ -663,7 +663,7 @@
         margin:100px 0px 0px 0px;
     }
 
-    .deskflex .deskimg 
+    .deskflex .deskimg , .blakflex .deskimg
     {
         display:flex;
         margin:0px auto 0px auto;
@@ -675,7 +675,13 @@
         transition: 1s;
     }
 
-    .deskflex .flextext
+    .blakflex .deskimg
+    {
+        background-color:rgba(0, 0, 0, 0.5);
+        transition: 1s;
+    }
+
+    .deskflex .flextext , .blakflex .flextext
     {
         display:block;
         margin:auto;
@@ -683,7 +689,7 @@
         height:auto;
     }
 
-    .deskflex .flextext .ftitle
+    .deskflex .flextext .ftitle , .blakflex .flextext .ftitle
     {
         display:block;
         margin:0;
@@ -693,5 +699,12 @@
         color:black;
         font-family:nexa;
         text-align:center;
+        transition:1s;
+    }
+
+    .blakflex .flextext .ftitle
+    {
+        color:white;
+        transition:1s;
     }
 }
