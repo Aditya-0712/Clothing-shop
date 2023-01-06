@@ -372,7 +372,7 @@
     font-size:30px;
 }
 
-.linq 
+.linq , .prolinq
 {
     display:flex;
     margin:40px auto 0px auto;
@@ -423,7 +423,7 @@
     color:rgba(255, 255, 255, 0.5);
 }
 
-.topnav , .alt , .deskflex
+.topnav , .alt , .deskflex , .hor
 {
     display:none;
 }
@@ -431,7 +431,7 @@
 
 @media screen and (min-width:1000px)
 {
-    .menu , .title, .modf, .hed, .desc, .price , .cart , .stars, .mod1
+    .menu , .title, .modf, .hed, .desc, .price , .cart , .stars, .mod1 , .linq , .cred .credcont , .newtitle
     {
         display:none;
     }
@@ -706,5 +706,18 @@
     {
         color:white;
         transition:1s;
+    }
+
+    .hor 
+    {
+        display:flex;
+        width:100%;
+        height:auto;
+        margin:0;
+    }
+
+    .cred 
+    {
+        height:285px;
     }
 }
