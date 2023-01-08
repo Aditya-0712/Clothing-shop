@@ -663,22 +663,33 @@
         margin:100px 0px 0px 0px;
     }
 
-    .deskflex .deskimg , .blakflex .deskimg
+    .deskflex .deskimg , .blakflex .deskimg , .deskflex .deskimg1 , .blakflex .deskimg1
     {
         display:flex;
         margin:0px auto 0px auto;
         width:300px;
         height:auto;
         border-radius:20px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
         background-color:#FEFCF3;
         transition: 1s;
     }
 
-    .blakflex .deskimg
+    .deskflex .deskimg1 , .blakflex .deskimg1
+    {
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    }
+
+    .blakflex .deskimg , .blakflex .deskimg1
     {
         background-color:rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(193, 71, 233, 0.4) -5px 5px, rgba(193, 71, 233, 0.3) -10px 10px, rgba(193, 71, 233, 0.2) -15px 15px, rgba(193, 71, 233, 0.1) -20px 20px, rgba(193, 71, 233, 0.05) -25px 25px;
         transition: 1s;
+    }
+
+    .blakflex .deskimg1
+    {
+        box-shadow: rgba(193, 71, 233, 0.4) 5px 5px, rgba(193, 71, 233, 0.3) 10px 10px, rgba(193, 71, 233, 0.2) 15px 15px, rgba(193, 71, 233, 0.1) 20px 20px, rgba(193, 71, 233, 0.05) 25px 25px;
     }
 
     .deskflex .flextext , .blakflex .flextext
