@@ -26,7 +26,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow:hidden;
     position:fixed;
-    z-index:2;
+    z-index:3;
     transition:1s;
     opacity: 0.9;
 }
@@ -112,7 +112,7 @@
     transition:1s;
     overflow:hidden;
     position:fixed;
-    z-index:3;
+    z-index: 4;
 }
 
 .menu .span1 , .menu .span2 ,.menu .span3, .menu1 .span1 , .menu1 .span2 ,.menu1 .span3
@@ -219,6 +219,48 @@
 {
     color:white;
     transition:1s;
+}
+
+.invis 
+{
+    display:flex;
+    width:100%;
+    height:60.667px;
+    margin:0;
+    position:fixed;
+    z-index:3;
+}
+
+.mobcart
+{
+    display:flex;
+    width:40px;
+    height:auto;
+    margin:auto 15px auto auto;
+    cursor: pointer;
+}
+
+.invis2
+{
+    display:flex;
+    width:100%;
+    height:100%;
+    margin:0;
+    position:fixed;
+    z-index:2;
+}
+
+.mobacc
+{
+    display:flex;
+    width:40px;
+    height:auto;
+    margin:auto 15px 15px auto;
+    padding:10px;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+    backdrop-filter: blur(20px);
 }
 
 .mod1 , .darkmod1 , .modf
@@ -431,7 +473,7 @@
 
 @media screen and (min-width:1000px)
 {
-    .menu , .title, .modf, .hed, .desc, .price , .cart , .stars, .mod1 , .linq , .cred .credcont , .newtitle
+    .menu , .title, .modf, .hed, .desc, .price , .cart , .stars, .mod1 , .linq , .cred .credcont , .newtitle , .invis , .invis2
     {
         display:none;
     }
@@ -439,8 +481,8 @@
     .newcart
     {
         display:flex;
-        margin:auto;
-        width:20px;
+        margin:auto auto auto 10px;
+        width:25px;
         height:auto;
     }
 
@@ -513,11 +555,19 @@
         transition: 1s;
     }
 
+    .acc 
+    {
+        display:flex;
+        width:25px;
+        height:auto;
+        margin:auto auto auto 10px;
+    }
+
     .dropdown .down , .up .down
     {
         display:flex;
-        margin:auto;
-        width:20px;
+        margin:auto auto auto 10px;
+        width:25px;
         height:auto;
         transition: 0.5s;
     }
