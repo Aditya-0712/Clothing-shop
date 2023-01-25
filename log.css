@@ -1,0 +1,195 @@
+.whitebody , .darkbody
+{
+    width:100%;
+    height:100%;
+    margin:0;
+    font-size:0px;
+    background-image:linear-gradient(#FEFCF3,#F5EBE0,#F0DBDB,#DBA39A);
+    background-attachment:fixed;
+    background-size:cover;
+    transition: 1s;
+}
+
+.darkbody 
+{
+    background-image:linear-gradient(#000000,#52057B,#892CDC,#BC6FF1);
+    transition: 1s;
+}
+
+.whitebody .title , .darkbody .title
+{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0px 0px 60px 0px;
+    padding-top:40px;
+    font-size:40px;
+    font-family:nexa;
+    color:#20212c;
+    text-align:center;
+    transition: 1s;
+}
+
+.darkbody .title 
+{
+    color:#FFE3E1;
+    transition: 1s;
+}
+
+.whitebody .main , .darkbody .main
+{
+    display:block;
+    width:300px;
+    height:550px;
+    margin:20px auto 40px auto;
+    /* background-color:blue; */
+    border:1px solid black;
+    border-radius:5px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    transition: 1s;
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+.darkbody .main 
+{
+    box-shadow: rgba(233, 71, 71, 0.4) -5px 5px, rgba(233, 71, 71, 0.3) -10px 10px, rgba(233, 71, 71, 0.2) -15px 15px, rgba(233, 71, 71, 0.1) -20px 20px, rgba(233, 71, 71, 0.05) -25px 25px;
+    border:1px solid rgb(233, 71, 71);
+    transition: 1s;
+}
+
+.whitebody .main .p1main , .darkbody .main .p1main
+{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:40px 0px 50px 0px;
+    font-size:30px;
+    font-family:nexa;
+    color:black;
+    text-align:center;
+    transition:1s;
+}
+
+.darkbody .main .p1main 
+{
+    color:#FFE3E1;
+    transition: 1s;
+}
+
+.whitebody form p , .darkbody form p
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin:0px auto 20px 40px;
+    font-size:20px;
+    font-family:nexa;
+    color:black;
+}
+
+.darkbody form p 
+{
+    color:white;
+    transition:1s;
+}
+
+.whitebody form .inp , .darkbody form .inp
+{
+    display:flex;
+    width:200px;
+    height:30px;
+    margin:0px auto 30px auto;
+    background-color: #404258;
+    border:1px solid white;
+    border-radius:5px;
+    color:white;
+    font-family: nexa;
+    transition: 1s;
+}
+
+.darkbody form .inp 
+{
+    background-color:#E1D7C6;
+    color:black;
+    transition: 1s;
+}
+
+.whitebody form .sub , .darkbody form .sub
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin:10px auto 30px auto;
+    font-size:15px;
+    font-family:nexa;
+    color:black;
+    padding:7px;
+    cursor:pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 157, 255);
+    border:none;
+    border-radius:5px;
+    transition: 1s;
+}
+
+.darkbody form .sub
+{
+    color:white;
+    transition: 1s;
+}
+
+.whitebody .dm , .darkbody .dm
+{
+    display:block;
+    width: 100%;
+    height:auto;
+    margin:50px 0px 30px 0px;
+    font-size:30px;
+    font-family:nexa;
+    color:#20212c;
+    text-align: center;
+    transition:1s;
+}
+
+.darkbody .dm 
+{
+    color:#FFE3E1;
+    transition:1s;
+}
+
+.off , .on
+{
+    display:flex;
+    margin:0px auto 40px auto;
+    width:90px;
+    height:45px;
+    border:5px solid #183153;
+    border-radius:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+.on 
+{
+    background-color:#183153;
+    transition: 0.5s;
+}
+
+.off div , .on div
+{
+    display:flex;
+    width:35px;
+    height:35px;
+    margin:auto auto auto 5px;
+    border-radius:50px;
+    background-color:#183153;
+    transition: 0.5s;
+}
+
+.on div 
+{
+    transform:translateX(48px);
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
