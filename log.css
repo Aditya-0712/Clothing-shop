@@ -12,7 +12,7 @@
 
 .darkbody 
 {
-    background-image:linear-gradient(#000000,#52057B,#892CDC,#BC6FF1);
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
     transition: 1s;
 }
 
@@ -40,7 +40,7 @@
 {
     display:block;
     width:300px;
-    height:550px;
+    height:600px;
     margin:20px auto 40px auto;
     /* background-color:blue; */
     border:1px solid black;
@@ -103,8 +103,8 @@
     border:1px solid white;
     border-radius:5px;
     color:white;
-    font-family: nexa;
-    font-size:20px;
+    font-family: sans-serif;
+    font-size:17px;
     transition: 1s;
 }
 
@@ -131,6 +131,32 @@
     border:none;
     border-radius:5px;
     transition: 1s;
+}
+
+.whitebody .sig , .darkbody .sig 
+{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0px 0px 0px 0px;
+    font-size:15px;
+    font-family:nexa;
+    color:black;
+    text-align:center;
+    transition:0.5s;
+}
+
+.darkbody .sig 
+{
+    color:#F7F6DC;
+    transition:0.5s;
+}
+
+.whitebody .sig a 
+{
+    margin:0;
+    text-decoration: none;
+    color:rgb(0, 166, 255);
 }
 
 .darkbody form .sub
