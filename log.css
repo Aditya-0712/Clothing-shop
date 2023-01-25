@@ -220,3 +220,14 @@
     background-color: rgba(255, 255, 255, 0.5);
     transition: 0.5s;
 }
+
+/* For signup page */
+
+.whitebody form p .i , .whitebody form p .iopen
+{
+    display:flex;
+    width:20px;
+    height:auto;
+    margin:auto 40px auto auto;
+    cursor:pointer;
+}
