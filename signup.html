@@ -10,16 +10,16 @@
         <p class="title">CLOTHEX</p>
         <div class="main">
             <p class="p1main">Create Account</p>
-            <form autocomplete="off" action="signup.php" method="post">
+            <form autocomplete="off" action="signup.php" method="post" onsubmit="return passlen()">
                 <p>
                     Email :- 
                     <img src="info.svg" class="i" id="i" title="Your Username and Password will be sent on this Email ID">
                 </p>
-                <input type="text" name="email" class="inp">
+                <input type="text" name="email" class="inp" required>
                 <p>Username :-</p>
-                <input type="text" name="user" class="inp">
+                <input type="text" name="user" class="inp" required>
                 <p>Password :-</p>
-                <input type="password" name="pass" class="inp">
+                <input type="password" name="pass" class="inp" required id="pass" value="">
                 <input type="submit" class="sub" value="Create">
             </form>
             <p class="sig">Already have an Account? . <a href="login.html">Login</a></p>
