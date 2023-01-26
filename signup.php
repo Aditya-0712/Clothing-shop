@@ -22,7 +22,7 @@
                 <p class="newoptp">Your Cart</p>
                 <img src="cart.svg" class="newcart">
             </a>
-            <a href="login.html" class="newopt">
+            <a href="Account.html" class="newopt">
                 <p class="newoptp">Account</p>
                 <img src="account.svg" class="acc">
             </a>

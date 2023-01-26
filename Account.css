@@ -1,0 +1,39 @@
+.whitebody 
+{
+    width:100%;
+    height:900px;
+    margin:0;
+    font-size:0px;
+    background-image:linear-gradient(#FEFCF3,#F5EBE0,#F0DBDB,#DBA39A);
+    background-attachment:fixed;
+    background-size:cover;
+    transition: 1s;
+}
+
+.whitebody .header 
+{
+    display:flex;
+    width:100%;
+    height:auto;
+    margin:0px 0px 50px 0px;
+    padding-top:30px;
+}
+
+.whitebody .header p 
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin:auto;
+    font-size:40px;
+    font-family:nexa;
+    color:black;
+}
+
+.whitebody .header p img 
+{
+    display:flex;
+    width:30px;
+    height:auto;
+    margin:auto auto auto 20px;
+}
